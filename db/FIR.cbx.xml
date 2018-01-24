@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="FIR">
+		<CBX_INST_ENTRY INSTANCE_NAME="|FIR|CPU_qsys:CPU_qsys_Init|CPU_qsys_JTAG_UART:jtag_uart|CPU_qsys_JTAG_UART_scfifo_r:the_CPU_qsys_JTAG_UART_scfifo_r|scfifo:rfifo" CBX_FILE_NAME="scfifo_jr21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FIR|PLL:PLL_Init|altpll:altpll_component" CBX_FILE_NAME="PLL_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FIR|CPU_qsys:CPU_qsys_Init|CPU_qsys_CPU:cpu|CPU_qsys_CPU_ic_data_module:CPU_qsys_CPU_ic_data|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_cjd1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FIR|CPU_qsys:CPU_qsys_Init|CPU_qsys_CPU:cpu|CPU_qsys_CPU_ic_tag_module:CPU_qsys_CPU_ic_tag|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_a4h1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FIR|CPU_qsys:CPU_qsys_Init|CPU_qsys_CPU:cpu|CPU_qsys_CPU_mult_cell:the_CPU_qsys_CPU_mult_cell|altera_mult_add:the_altmult_add_part_2|altera_mult_add_s1u2:auto_generated|altera_mult_add_rtl:altera_mult_add_rtl1|ama_multiplier_function:multiplier_block|lpm_mult:Mult0" CBX_FILE_NAME="mult_j011.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FIR|CPU_qsys:CPU_qsys_Init|CPU_qsys_CPU:cpu|CPU_qsys_CPU_nios2_oci:the_CPU_qsys_CPU_nios2_oci|CPU_qsys_CPU_nios2_ocimem:the_CPU_qsys_CPU_nios2_ocimem|CPU_qsys_CPU_ociram_sp_ram_module:CPU_qsys_CPU_ociram_sp_ram|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_bg81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FIR|CPU_qsys:CPU_qsys_Init|CPU_qsys_CPU:cpu|CPU_qsys_CPU_register_bank_b_module:CPU_qsys_CPU_register_bank_b|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_26g1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FIR|CPU_qsys:CPU_qsys_Init|CPU_qsys_CPU:cpu|lpm_add_sub:Add17" CBX_FILE_NAME="add_sub_qvi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FIR|CPU_qsys:CPU_qsys_Init|CPU_qsys_CPU:cpu|CPU_qsys_CPU_mult_cell:the_CPU_qsys_CPU_mult_cell|altera_mult_add:the_altmult_add_part_1|altera_mult_add_q1u2:auto_generated|altera_mult_add_rtl:altera_mult_add_rtl1|ama_multiplier_function:multiplier_block|lpm_mult:Mult0" CBX_FILE_NAME="mult_jp01.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FIR|CPU_qsys:CPU_qsys_Init|CPU_qsys_CPU:cpu|CPU_qsys_CPU_bht_module:CPU_qsys_CPU_bht|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_1og1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FIR|CPU_qsys:CPU_qsys_Init|CPU_qsys_CPU:cpu|CPU_qsys_CPU_dc_data_module:CPU_qsys_CPU_dc_data|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_kpc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FIR|CPU_qsys:CPU_qsys_Init|CPU_qsys_CPU:cpu|CPU_qsys_CPU_dc_tag_module:CPU_qsys_CPU_dc_tag|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_vcg1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FIR|CPU_qsys:CPU_qsys_Init|CPU_qsys_CPU:cpu|CPU_qsys_CPU_dc_victim_module:CPU_qsys_CPU_dc_victim|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_r3d1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FIR|CPU_qsys:CPU_qsys_Init|CPU_qsys_CPU:cpu|CPU_qsys_CPU_mult_cell:the_CPU_qsys_CPU_mult_cell|altera_mult_add:the_altmult_add_part_1" CBX_FILE_NAME="altera_mult_add_q1u2.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FIR|CPU_qsys:CPU_qsys_Init|CPU_qsys_CPU:cpu|CPU_qsys_CPU_register_bank_a_module:CPU_qsys_CPU_register_bank_a|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_16g1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FIR|CPU_qsys:CPU_qsys_Init|CPU_qsys_JTAG_UART:jtag_uart|CPU_qsys_JTAG_UART_scfifo_w:the_CPU_qsys_JTAG_UART_scfifo_w|scfifo:wfifo" CBX_FILE_NAME="scfifo_jr21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FIR|CPU_qsys:CPU_qsys_Init|CPU_qsys_CPU:cpu|CPU_qsys_CPU_mult_cell:the_CPU_qsys_CPU_mult_cell|altera_mult_add:the_altmult_add_part_2" CBX_FILE_NAME="altera_mult_add_s1u2.v"/>
+	</PROJECT>
+</LOG_ROOT>
